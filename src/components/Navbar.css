@@ -1,0 +1,115 @@
+.menu-toggle {
+    position: relative;
+    cursor: pointer;
+    width: 30px;
+    height: 14px;
+    margin-top: 0.2rem;
+  }
+  
+  .menu-toggle span {
+    display: block;
+    width: 60%;
+    height: 2px;
+    background-color: #444444;
+    position: absolute;
+    left: 0;
+    transition: all 0.2s ease;
+    z-index: 30;
+  }
+  
+  .menu-toggle span:nth-child(1) {
+    top: 0;
+  }
+  
+  .menu-toggle span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .menu-toggle span:nth-child(3) {
+    bottom: 0;
+  }
+  
+  /* Animation for the hamburger icon */
+  .menu-toggle.open span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  
+  .menu-toggle.open span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu-toggle.open span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+  
+  /* Menu styles */
+  .menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    background: rgb(255, 255, 255);
+  margin-top: 1%;
+    z-index: 30;
+    transition: top 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0;
+  }
+  
+  .menu.open {
+    top: 46px; /* Adjust based on your header height */
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    padding: 2px 20px;
+  }
+  
+  .menu li:active {
+    color: #033a66;
+font-weight: 700;
+  z-index: 30;
+  
+
+  }
+  
+  @media (min-width: 1025px) {
+    .menu {
+      position: static;
+      display: flex;
+      flex-direction: row;
+      background: none;
+      border: none;
+      box-shadow: none;
+      width: auto;
+   
+      padding: 0;
+      top: auto;
+      transition: none;
+    }
+  
+    .menu-toggle {
+      display: none;
+    }
+  
+    .menu ul {
+      display: flex;
+      gap: 1rem;
+    }
+  
+    .menu li {
+      padding: 0;
+    }
+  
+  
+  }
+  
+  
+  
