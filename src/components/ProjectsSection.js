@@ -21,7 +21,7 @@ const ProjectsSection = () => {
             <div className="text-center">
               <h1 className="text-2xl mt-2 font-bold">Project One</h1>
               <div class="flex justify-center mt-3">
-                <img src={img} className="w-[16rem] rounded-lg" />
+                <img src={img} className="w-[16rem] rounded-lg" alt="img" />
               </div>
 
               <div class="flex justify-center gap-5 mt-5">
@@ -47,7 +47,7 @@ const ProjectsSection = () => {
             <div className="text-center">
               <h1 className="text-2xl mt-5 font-bold">Project Two</h1>
               <div class="flex justify-center mt-3">
-                <img src={img2} className="w-[16rem] rounded-lg" />
+                <img src={img2} className="w-[16rem] rounded-lg" alt="img" />
               </div>
 
               <div class="flex justify-center gap-5 mt-4">
@@ -74,7 +74,7 @@ const ProjectsSection = () => {
             <div className="text-center">
               <h1 className="text-2xl mt-5 font-bold">Project Two</h1>
               <div class="flex justify-center mt-3">
-                <img src={img3} className="w-[16rem] rounded-lg" />
+                <img src={img3} className="w-[16rem] rounded-lg" alt="img"/>
               </div>
 
               <div class="flex justify-center gap-5 mt-4">
@@ -100,7 +100,7 @@ const ProjectsSection = () => {
             <div className="text-center">
               <h1 className="text-2xl mt-5 font-bold">Project Two</h1>
               <div class="flex justify-center mt-3">
-                <img src={img1} className="w-[16rem] h-[7rem] rounded-lg" />
+                <img src={img1} className="w-[16rem] h-[7rem] rounded-lg" alt="img"/>
               </div>
 
               <div class="flex justify-center gap-5 mt-4">
