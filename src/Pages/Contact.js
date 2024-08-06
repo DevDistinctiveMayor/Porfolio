@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // assuming you're using react-router
 import { CiLocationOn } from "react-icons/ci";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdPhoneInTalk } from "react-icons/md";

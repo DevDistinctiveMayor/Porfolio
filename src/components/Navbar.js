@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import './Navbar.css';
 
 const Navbar = () => {
@@ -22,7 +20,7 @@ const Navbar = () => {
       <nav className="flex justify-evenly sm:justify-around">
         <div>
           <h1 className="text-[15px] sm:w-fit font-bold lg:text-2xl">
-            <Link to="/">Ekundayo Mayowa TIMILEYIN</Link>
+            Ekundayo Mayowa TIMILEYIN
           </h1>
         </div>
         <div className="flex justify-evenly">

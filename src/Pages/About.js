@@ -1,6 +1,6 @@
 import React from 'react';
 import img1 from '../img/WhatsApp Image 2024-02-28 at 22.35.37_e82063ca.jpg';
-import { Link } from 'react-router-dom'; // assuming you're using react-router
+
 
 const AboutMe = () => {
   return (
@@ -42,7 +42,7 @@ const AboutMe = () => {
           <div>
             <h1 className="font-semibold">Passion:</h1>
             <p>
-              As a developer, I’m driven by the thrill of problem-solving and the joy of creation. 
+              As a developer, I'm driven by the thrill of problem-solving and the joy of creation. 
               Whether it's architecting scalable systems, optimizing performance, or crafting intuitive user interfaces, 
               I thrive on the intricacies of the development process and the satisfaction of seeing ideas come to life in 
               the form of functional, elegant solutions.
