@@ -2,6 +2,7 @@ import React from 'react';
 import { CiLocationOn } from "react-icons/ci";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdPhoneInTalk } from "react-icons/md";
+import { MdOutlineAttachEmail } from "react-icons/md";
 
 
 const ContactMe = () => {
@@ -23,7 +24,7 @@ const ContactMe = () => {
                   <p className="text- font-semibold">Phone: <span className=" font-medium"><a href="tel:+2347034325810">+2347034325810</a></span></p>
                 </div>
                 <div className="flex gap-4 mt-5">
-                  <CiLocationOn className='text-[23px]'/>
+                  <MdOutlineAttachEmail className='text-[23px]'/>
                   <p className="text- font-semibold">Email: <span className=" font-medium"><a href="mailto:ekundayomayor@gmail.com">ekundayomayor@gmail.com</a></span></p>
                 </div>
                 <div className="flex gap-4 mt-5">
