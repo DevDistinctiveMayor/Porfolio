@@ -24,7 +24,7 @@ const AboutSection = () => {
             <div className="grid place-items-center mt-4">
               <FaBook class="text-[20px]"/>
               <p className="text-xl font-bold">Experience</p>
-              <span>2+Years</span>
+              <span>3+Years</span>
               <p>Full-Stack Developer</p>
             </div>
           </div>
