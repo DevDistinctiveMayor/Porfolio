@@ -55,7 +55,7 @@ const Experience = () => {
               <h1 className="text-base font-semibold">
                 APTECH Computer Education
               </h1>
-              <p>May, 2023 - 2024</p>
+              <p>Sept, 2023 - 2024</p>
               <p>Basic and advanced knowledge of Html</p>
               <p>Basic and advanced knowledge of CSS/ Tailwind CSS</p>
               <p>Basic and advanced knowledge of JavaScript</p>
