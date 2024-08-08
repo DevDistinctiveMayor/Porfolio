@@ -9,7 +9,7 @@ const ContactSection = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus('Sending...');
-    const response = await fetch('http://localhost:5000/send', {
+    const response = await fetch('https://porfolio-backend-zgi7.onrender.com/send', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

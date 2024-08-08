@@ -31,7 +31,7 @@ const projects = [
   {
     title: "Mira_Lux Boutique Website",
     
-    discription: [
+    description: [
       "It has the catalog for Women, Men, Accessories.",
       "It includes some cool animations to make it dynamic and visually appealing. It's designed to be responsive."
     ],
@@ -73,7 +73,7 @@ const ProjectCard = ({ project }) => (
   <div className="">
     <div className="text-lg">
       <h1 className="text-xl font-semibold mt-5 flex justify-center mb-[1rem]">{project.title}</h1>
-      <h2 className="text-[18px] text-slate-600 font-semibold underline">Brief Description:</h2>
+      <h2 className="text-[18px] text-slate-600 font-semibold underline">Brief description:</h2>
       {Array.isArray(project.description) ? (
         project.description.map((item, index) => <p className="mb-2" key={index}>{item}</p>)
       ) : (
