@@ -16,7 +16,7 @@ const ContactSection = () => {
       },
       body: JSON.stringify({ name, email, message }),
     });
-    const result = await response.text();
+    //const result = await response.text();
     if (response.ok) {
       setStatus('Message sent successfully');
     } else {
