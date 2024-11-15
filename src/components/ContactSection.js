@@ -43,14 +43,14 @@ const ContactSection = () => {
               onChange={(e) => setName(e.target.value)}
             />
           </div>
-          <div className="mb-4">
-            {/* <input
+          <div className="mb-4 hidden">
+            <input
               type="email"
               placeholder="Email"
               className="border-2 border-black rounded-xl w-full px-3 py-2"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-            /> */}
+            />
           </div>
           <div className="mb-4">
             <textarea
