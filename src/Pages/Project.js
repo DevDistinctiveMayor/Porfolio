@@ -52,6 +52,18 @@ const projects = [
     liveDemo: "https://onfleekq-nine.vercel.app/"
   },
   {
+    title: "OurAgentNG",
+    description: [
+      "Utilizing Google MAP for presenting live location",
+      "Working on real estate management which will bring about change in the Real Estate World",
+      "Working with PHP and MySql as database.",
+      "Integrating Circular Progress on each purchase",
+
+    ],
+    technologies: "Html, css, JavaScript, PHP, MySQL.",
+   
+  },
+  {
     title: "Blackjack Game",
     description: [
       "It's basically a game",

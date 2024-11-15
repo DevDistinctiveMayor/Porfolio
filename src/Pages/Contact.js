@@ -17,7 +17,7 @@ const ContactMe = () => {
               <div>
                 <div className="flex gap-4 mt-5">
                 <CiLocationOn className='text-[23px]'/>
-                  <p className="text- font-semibold">Address: <span className="font-medium">Kano, Nigeria</span></p>
+                  <p className="text- font-semibold">Address: <span className="font-medium">Lagos, Nigeria</span></p>
                 </div>
                 <div className="flex gap-4 mt-5">
                   <MdPhoneInTalk className='text-[23px]'/>
