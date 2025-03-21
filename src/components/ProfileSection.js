@@ -15,7 +15,7 @@ const ProfileSection = () => {
         <h2 className="text-3xl font-serif font-medium mt-2 text-white">Mayowa</h2>
         <h3 className="text-xl mt-2">Full Stack Web Developer</h3>
         <div className="flex justify-center mt-3">
-          <a href="/Cv folder/Ekundayo Mayowa T. CV NEW.pdf" className="border-2 border-[#033a66] rounded-xl w-6/12 text-white" target="_blank" rel="noopener noreferrer">View CV</a>
+          <a href="/Cv folder/EKUNDAYO MAYOWA TIMILEYIN UPDATED.pdf" className="border-2 border-[#033a66] rounded-xl w-6/12 text-white" target="_blank" rel="noopener noreferrer">View CV</a>
           <a href="/Cv folder/Mayowa-coverletter.pdf" className="ml-4 rounded-xl w-6/12 bg-[#033a66] text-gray-50" target="_blank" rel="noopener noreferrer">Cover Letter</a>
         </div>
         <div className="flex justify-center gap-4 mt-3 ">
