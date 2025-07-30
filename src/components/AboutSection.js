@@ -10,7 +10,7 @@ const AboutSection = () => {
     <div className="w-[21rem] sm:w-[34rem] mt-4">
       <p className="text-sky-400 text-[22px]">Get To Know More</p>
       {/* <img src={img1} alt="Mayor" className="rounded-3xl" /> */}
-      <p className="text-slate-200 mt-2 leading-relaxed">
+      <p className="text-slate-200 mt-20 leading-relaxed">
 As a developer, I’m driven by a deep passion for crafting thoughtful, scalable solutions to complex digital problems. Here’s a look into the experiences and values that shape my work:
       </p>
     </div>
