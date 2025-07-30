@@ -20,7 +20,7 @@ const Navbar = () => {
   <nav className="flex justify-between items-center px-4 sm:px-10">
     <div>
       <h1 className="text-base sm:text-lg lg:text-2xl font-bold">
-        Ekundayo Mayowa TIMILEYIN
+    Mayowa Ekundayo
       </h1>
     </div>
 

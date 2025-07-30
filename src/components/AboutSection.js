@@ -7,11 +7,11 @@ const AboutSection = () => {
   return (
    <div className="bg-gradient-to-r from-[#0f172a] via-[#1e293b] to-[#334155] pb-10">
   <div className="text-center font-semibold font-mono flex justify-center">
-    <div className="w-[19rem] sm:w-[34rem] mt-4">
+    <div className="w-[21rem] sm:w-[34rem] mt-4">
       <p className="text-sky-400 text-[22px]">Get To Know More</p>
       {/* <img src={img1} alt="Mayor" className="rounded-3xl" /> */}
       <p className="text-slate-200 mt-2 leading-relaxed">
-        I am a developer with a fervent enthusiasm for crafting elegant solutions to complex problems in the digital world. Here's a glimpse into my journey and what drives me:
+As a developer, I’m driven by a deep passion for crafting thoughtful, scalable solutions to complex digital problems. Here’s a look into the experiences and values that shape my work:
       </p>
     </div>
   </div>

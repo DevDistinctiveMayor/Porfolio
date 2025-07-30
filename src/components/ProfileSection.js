@@ -15,11 +15,10 @@ const ProfileSection = () => {
     </div>
 
     <div className="text-center mt-10 font-mono md:-mt-10">
-      <h1 className="text-slate-300 text-lg">Hi, I'm</h1>
-      <h2 className="text-3xl font-serif font-medium mt-2 text-white">
-        Mayowa
-      </h2>
-      <h3 className="text-xl mt-2 text-slate-300">Full Stack Web Developer</h3>
+<h1 className="text-slate-300 text-lg">Hello, I’m</h1>
+<h2 className="text-2xl font-serif font-semibold mt-2 text-white">Mayowa Ekundayo</h2>
+<h3 className="text-lg mt-2 text-slate-300">Full-Stack Developer | Passionate Problem Solver</h3>
+
 
       <div className="flex justify-center mt-3 gap-4">
         <a
