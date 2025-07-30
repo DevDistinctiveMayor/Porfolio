@@ -16,35 +16,50 @@ const Navbar = () => {
   };
 
   return (
-    <div className="text-black p-4 fixed w-full bg-slate-100 shadow-2xl shadow-[#033a66] z-20">
-      <nav className="flex justify-evenly sm:justify-around">
-        <div>
-          <h1 className="text-[15px] sm:w-fit font-bold lg:text-2xl">
-            Ekundayo Mayowa TIMILEYIN
-          </h1>
-        </div>
-        <div className="flex justify-evenly">
-          <div className={`menu ${menuOpen ? 'open' : ''}`}>
-            <ul className="flex md:flex-row flex-col md:items-center md:gap-[2vw] gap-6">
-              <li className="cursor-pointer" onClick={() => handleNavigation("/")}>Home</li>
-              <li className="cursor-pointer" onClick={() => handleNavigation("/aboutus")}>About</li>
-              <li className="cursor-pointer" onClick={() => handleNavigation("/experience")}>Experience</li>
-              <li className="cursor-pointer" onClick={() => handleNavigation("/project")}>Projects</li>
-              <li className="cursor-pointer" onClick={() => handleNavigation("/contact")}>Contact</li>
-            </ul>
-          </div>
-
-          <label
-            className={`menu-toggle ${menuOpen ? "open" : ""}`}
-            onClick={onToggleMenu}
-          >
-            <span></span>
-            <span></span>
-            <span></span>
-          </label>
-        </div>
-      </nav>
+   <div className="fixed w-full bg-gradient-to-r from-[#0f172a] via-[#1e293b] to-[#334155] text-slate-50 p-4 shadow-lg shadow-sky-[#334155] z-20">
+  <nav className="flex justify-between items-center px-4 sm:px-10">
+    <div>
+      <h1 className="text-base sm:text-lg lg:text-2xl font-bold">
+        Ekundayo Mayowa TIMILEYIN
+      </h1>
     </div>
+
+    <div className="flex items-center">
+      {/* Desktop/Menu List */}
+      <div className={`menu ${menuOpen ? 'open' : ''}`}>
+        <ul className="hidden md:flex items-center gap-6 lg:gap-10">
+          <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/")}>Home</li>
+          <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/aboutus")}>About</li>
+          <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/experience")}>Experience</li>
+          <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/project")}>Projects</li>
+          <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/contact")}>Contact</li>
+        </ul>
+      </div>
+
+      {/* Mobile Toggle Button */}
+      <label
+        className={`menu-toggle md:hidden ml-4 cursor-pointer ${menuOpen ? "open" : ""}`}
+        onClick={onToggleMenu}
+      >
+        <span className="block w-6 h-[2px] bg-white mb-1 transition-all duration-300"></span>
+        <span className="block w-6 h-[2px] bg-white mb-1 transition-all duration-300"></span>
+        <span className="block w-6 h-[2px] bg-white transition-all duration-300"></span>
+      </label>
+    </div>
+  </nav>
+
+  {/* Mobile Nav List */}
+  {menuOpen && (
+    <ul className="flex flex-col items-center gap-4 mt-4 md:hidden">
+      <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/")}>Home</li>
+      <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/aboutus")}>About</li>
+      <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/experience")}>Experience</li>
+      <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/project")}>Projects</li>
+      <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/contact")}>Contact</li>
+    </ul>
+  )}
+</div>
+
   );
 };
 
