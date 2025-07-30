@@ -1,7 +1,7 @@
 import React from "react";
 import { FaBook } from "react-icons/fa";
 import { FaRegLightbulb } from "react-icons/fa";
-import img1 from '../img/WhatsApp Image 2024-02-28 at 22.35.37_e82063ca.jpg'
+//import img1 from '../img/WhatsApp Image 2024-02-28 at 22.35.37_e82063ca.jpg'
 
 const AboutSection = () => {
   return (
