@@ -16,7 +16,7 @@ const ProjectsSection = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     arrows: true,
     responsive: [
@@ -39,7 +39,7 @@ const ProjectsSection = () => {
       </div>
 
       <div className="flex justify-center">
-        <div className="w-[70rem]  mt-10 font-mono">
+        <div className="w-full  mt-10 font-mono">
           <Slider {...settings}>
             {/* OurAgentNG Slide */}
             <div className="px-3">
