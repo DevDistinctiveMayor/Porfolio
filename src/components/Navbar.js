@@ -19,7 +19,7 @@ const Navbar = () => {
    <div className="fixed w-full bg-gradient-to-r from-[#0f172a] via-[#1e293b] to-[#334155] text-slate-50 p-4 shadow-lg shadow-sky-[#334155] z-20">
   <nav className="flex justify-between items-center px-4 sm:px-10">
     <div>
-      <h1 className="text-base sm:text-lg lg:text-2xl font-bold">
+      <h1 className="text-base sm:text-lg lg:text-2xl font-bold cursor-pointer" onClick={() => handleNavigation("/")}>
     Mayowa Ekundayo
       </h1>
     </div>
@@ -28,10 +28,10 @@ const Navbar = () => {
       {/* Desktop/Menu List */}
       <div className={`menu ${menuOpen ? 'open' : ''}`}>
         <ul className="hidden md:flex items-center gap-6 lg:gap-10">
-          <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/")}>Home</li>
+          {/* <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/")}>Home</li> */}
           <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/aboutus")}>About</li>
-          <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/experience")}>Experience</li>
-          <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/project")}>Projects</li>
+          {/* <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/experience")}>Experience</li>
+          <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/project")}>Projects</li> */}
           <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/contact")}>Contact</li>
         </ul>
       </div>
@@ -51,10 +51,10 @@ const Navbar = () => {
   {/* Mobile Nav List */}
   {menuOpen && (
     <ul className="flex flex-col items-center gap-4 mt-4 md:hidden">
-      <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/")}>Home</li>
+      {/* <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/")}>Home</li> */}
       <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/aboutus")}>About</li>
-      <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/experience")}>Experience</li>
-      <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/project")}>Projects</li>
+      {/* <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/experience")}>Experience</li>
+      <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/project")}>Projects</li> */}
       <li className="cursor-pointer hover:text-sky-400 transition" onClick={() => handleNavigation("/contact")}>Contact</li>
     </ul>
   )}
