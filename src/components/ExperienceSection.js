@@ -20,9 +20,8 @@ const ExperienceSection = () => {
         <h1>Experiences</h1>
       </div>
       <div className="flex justify-center">
-<div className="flex flex-col justify-center mt-8 gap-y-6 lg:flex-row lg:gap-8">
-
-          <div className="border-2 border-black rounded-3xl w-[23rem] h-56">
+        <div className="flex flex-col justify-center mt-8 gap-y-6 lg:flex-row lg:gap-8">
+          <div className="border-2 border-black rounded-3xl w-[22rem] h-56">
             <div className="text-center">
               <h1 className="text-[20px] mt-5 mb-4 font-bold">
                 Frontend Development
@@ -64,7 +63,7 @@ const ExperienceSection = () => {
             </div>
           </div>
 
-          <div className="border-2 border-black rounded-3xl w-[23rem] h-56">
+          <div className="border-2 border-black rounded-3xl w-[22rem] h-56">
             <div className="text-center">
               <h1 className="text-[20px] mt-5 mb-4 font-bold">
                 Backend Development
@@ -107,7 +106,7 @@ const ExperienceSection = () => {
             </div>
           </div>
 
-          <div className="border-2 border-black rounded-3xl w-[23rem] h-56">
+          <div className="border-2 border-black rounded-3xl w-[22rem] h-56">
             <div className="text-center">
               <h1 className="text-[20px] mt-5 mb-4 font-bold">
                 App Dev / Others

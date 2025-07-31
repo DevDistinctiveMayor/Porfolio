@@ -4,11 +4,16 @@
 .slick-prev:before,
 .slick-next:before {
   color: #033a66; /* Change arrow color */
-}
+  font-size: 25px;
+
+  }
 
 /* Add margin between slides */
 .slick-slide {
   margin-left: 0px ;
+  display: flex;
+  justify-content: space-between;
+  gap:10px;
    /* Adjust margin as needed */
  
 }
