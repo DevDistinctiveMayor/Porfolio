@@ -4,7 +4,7 @@ import img from "../img/ERP_web.png";
 import img1 from "../img/onfleekq (2).png";
 import img2 from "../img/Screenshot 2024-08-04 011440.png";
 import img3 from "../img/Screenshot 2024-08-04 011716.png";
-import img4 from "../img/Screenshot 2024-08-20 065524.png";
+//import img4 from "../img/Screenshot 2024-08-20 065524.png";
 import ouragentImg from "../img/ouragent.png";
 import mira from "../img/mira.png";
 import "slick-carousel/slick/slick.css";
