@@ -20,6 +20,16 @@ const ProjectsSection = () => {
     slidesToScroll: 1,
     arrows: true,
     responsive: [
+      
+      {
+        breakpoint: 990, // Desktop breakpoint
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+ 
+
       {
         breakpoint: 508, // Mobile breakpoint
         settings: {

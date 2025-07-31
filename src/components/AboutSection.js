@@ -24,8 +24,8 @@ As a developer, I’m driven by a deep passion for crafting thoughtful, scalable
       <div className="grid place-items-center mt-4 text-center">
         <FaBook className="text-[22px] text-sky-400" />
         <p className="text-xl font-bold mt-1">Experience</p>
-        <span className="text-sm">3+ Years</span>
-        <p className="text-sm">Full-Stack Web Developer</p>
+        <span className="text-sm">3 + Years</span>
+        <p className="text-sm">Full-Stack Developer</p>
       </div>
     </div>
 
