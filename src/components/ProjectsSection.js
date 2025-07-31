@@ -16,7 +16,7 @@ const ProjectsSection = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     arrows: true,
     responsive: [
@@ -39,7 +39,7 @@ const ProjectsSection = () => {
       </div>
 
       <div className="flex justify-center">
-        <div className="w-full max-w-2xl mt-10 font-mono">
+        <div className="w-[70rem]  mt-10 font-mono">
           <Slider {...settings}>
             {/* OurAgentNG Slide */}
             <div className="px-3">
@@ -63,7 +63,7 @@ const ProjectsSection = () => {
                         </a>
                       </p>
                     </div>
-                    <div className="border-2 border-[#033a66] p-2 text-[14px] text-center bg-[#033a66] rounded-xl">
+                    <div className="border-2 border-[#033a66] p-2 text-[14px] text-center bg-[#033a66] rounded-[8px]">
                       <p className="font-medium text-white">
                         <a href="https://ouragent.com.ng/">Live Demo</a>
                       </p>
@@ -95,7 +95,7 @@ const ProjectsSection = () => {
                         </a>
                       </p>
                     </div>
-                    <div className="border-2 border-[#033a66] p-2 text-[14px] text-center bg-[#033a66] rounded-xl">
+                    <div className="border-2 border-[#033a66] p-2 text-[14px] text-center bg-[#033a66] rounded-[8px]">
                       <p className="font-medium text-white">
                         <a href="https://miraluxs.com.ng/">Live Demo</a>
                       </p>
@@ -133,9 +133,12 @@ const ProjectsSection = () => {
             </div>
             </div>
 
+
+            {/* OnfleekQ Slide */}
+            <div className="px-3">
             <div className="border- shadow-inner shadow-[#033a66] rounded-3xl sm:p-3 p-2">
               <div className="text-center">
-                <h1 className="text-2xl mt-5 font-bold">Project Two</h1>
+                <h1 className="text-2xl mt-5 font-bold">Daily-Pay</h1>
                 <div className="flex justify-center mt-3">
                   <img src={img2} className="w-[16rem] rounded-lg" alt="img" />
                 </div>
@@ -157,10 +160,13 @@ const ProjectsSection = () => {
                 </div>
               </div>
             </div>
+            </div>
 
+            {/* Project Three Slide */}
+            <div className="px-3">
             <div className="border- shadow-inner shadow-[#033a66] rounded-3xl p-3">
               <div className="text-center">
-                <h1 className="text-2xl mt-5 font-bold">Project Three</h1>
+                <h1 className="text-2xl mt-5 font-bold">E-commance</h1>
                 <div className="flex justify-center mt-3">
                   <img src={img3} className="w-[16rem] rounded-lg" alt="img" />
                 </div>
@@ -180,8 +186,9 @@ const ProjectsSection = () => {
                 </div>
               </div>
             </div>
+            </div>
 
-            <div className="border- shadow-inner shadow-[#033a66] rounded-3xl p-3">
+            {/* <div className="border- shadow-inner shadow-[#033a66] rounded-3xl p-3">
               <div className="text-center">
                 <h1 className="text-2xl mt-5 font-bold">Project Four</h1>
                 <div className="flex justify-center mt-3">
@@ -204,11 +211,12 @@ const ProjectsSection = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
+            <div className="px-3">
             <div className="border- shadow-inner shadow-[#033a66] rounded-3xl p-3 ">
               <div className="text-center">
-                <h1 className="text-2xl mt-5 font-bold">Project Five</h1>
+                <h1 className="text-2xl mt-5 font-bold">Chart</h1>
                 <div className="flex justify-center mt-3">
                   <img
                     src={img1}
@@ -232,6 +240,9 @@ const ProjectsSection = () => {
                 </div>
               </div>
             </div>
+            </div>
+
+            {/* Pinnacle Forex Slide */}
           </Slider>
         </div>
       </div>
