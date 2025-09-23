@@ -25,7 +25,7 @@ const ProfileSection = () => {
 
           <div className="flex justify-center mt-3 gap-4">
             <a
-              href="/Cv folder/Ekundayo_mayowa_T.pdf"
+              href="/Cv folder/EKUNDAYO__MAYOWA__RESUME[1].pdf"
               className="border-2 border-sky-500 rounded-xl px-4 py-1 text-sky-500 hover:bg-sky-500 hover:text-white transition"
               target="_blank"
               rel="noopener noreferrer"
