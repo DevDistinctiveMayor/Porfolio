@@ -10,7 +10,7 @@ import ouragentImg from "../img/ouragent.png";
 import mira from "../img/mira.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./custom-slider.css"; // Import custom CSS
+import "./custom-slider.css";
 
 const ProjectsSection = () => {
   const settings = {
