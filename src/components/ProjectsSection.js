@@ -142,7 +142,7 @@ const ProjectsSection = () => {
                     </div>
                     <div className="border-2 border-[#033a66] p-2 text-[14px] text-center bg-[#033a66] rounded-[8px]">
                       <p className="font-medium text-white">
-                        <a href="https://auapartment.com/">Live Demo</a>
+                        <a href="https://au-apartment-u6nl.vercel.app/">Live Demo</a>
                       </p>
                     </div>
                   </div>
